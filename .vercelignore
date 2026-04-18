@@ -1,0 +1,22 @@
+# Ignore local development files
+.venv/
+__pycache__/
+*.pyc
+.env
+.git/
+.vscode/
+.idea/
+
+# Ignore local data (use cloud storage instead)
+uploads/
+chat_history/
+cache/
+users.json
+
+# Ignore documentation
+*.md
+!README.md
+
+# Ignore test files
+tests/
+*.test.py
